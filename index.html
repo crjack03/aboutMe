@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body class="dark-grey-background">
     <a href="./jobs.html">Jobs</a>
 <a href="./education.html">Education</a>
     <!-- Complete the following steps. Once you are done create a new repository in github, deploy this file to github and send a link to the project in Google Classroom-->
@@ -15,11 +15,11 @@
     <h1>Christopher Jackson</h1>
  
     <!-- 2. Add a photo of yourself below your h1 heading  -->
- <img class="smaller-image" src="https://mail.google.com/mail/u/0?ui=2&ik=62af16429c&attid=0.1&permmsgid=msg-a:r5639629076415425750&th=17e26da77dc90886&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_AnrxuKeh29R0af2hZVP-womqzZ7OD7cve-YZs6lKcxq1fkAsjsP_A0DyOA_CpfaKubm23Bh_gVEuOBV82qLXfB9lq52FtuCFPYIi8zOOlxMssJR0gUKUXB7s&disp=emb&realattid=17e26da609f341f10f01" alt="Me">
+ <img class="smaller-image" id="thumbnail" src="https://mail.google.com/mail/u/0?ui=2&ik=62af16429c&attid=0.1&permmsgid=msg-a:r5639629076415425750&th=17e26da77dc90886&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_AnrxuKeh29R0af2hZVP-womqzZ7OD7cve-YZs6lKcxq1fkAsjsP_A0DyOA_CpfaKubm23Bh_gVEuOBV82qLXfB9lq52FtuCFPYIi8zOOlxMssJR0gUKUXB7s&disp=emb&realattid=17e26da609f341f10f01" alt="Me">
     <!-- 3. Below your photo add an h2 tag with a caption that describes the photo. The size won't' make sense for a caption but we will edit this later with CSS  -->
  <h2>This is me taking my senior pictures</h2>
     <!-- 4. Below your link create an unordered list with multiple list items in it. The list items should include a timeline about you, facts about you, or you can have two lists that include both. -->
- <ol>
+ <ol class="green-text">
      <li>I love basketball</li>
      <li>I like Superhero movies/comic books</li>
      <li>I have 6 dogs</li>
@@ -33,6 +33,19 @@
       .smaller-image {
         width: 200px;
       }
+      .green-text{
+        color:springgreen;
+        font-family: monospace;
+      }
+      .dark-grey-background{
+        background: darkgrey;
+      }
+      #thumbnail {
+      box-shadow: 0 10px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.5);
+    }
+    a:hover{
+      color: black;
+    }
     </style>
     <!-- 7. Deploy this page to  your github and submit the link to your repository. Make sure that everything works on Live Server before you deploy your page!  -->
  
