@@ -1,0 +1,38 @@
+@media (max-width: 480px) { 
+    h1{
+        font-size: 15px;
+    }
+    img {
+        max-width: 100%;
+        height: auto%;
+      }
+      h2{
+          font-size: 12px;
+      }
+      p{
+          font-size: 8px;
+      }
+      ol{
+          font-size: 10px;
+      }
+      a{
+          font-size: 8px;
+      }
+}
+
+.smaller-image {
+    width: 100px;
+  }
+  .green-text{
+    color:springgreen;
+    font-family: monospace;
+  }
+  .dark-grey-background{
+    background: darkgrey;
+  }
+  #thumbnail {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.5);
+  }
+  a:hover{
+    color: black;
+  }
